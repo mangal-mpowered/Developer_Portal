@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import Accordion from 'react-bootstrap/Accordion'
 import Button from 'react-bootstrap/Button'
@@ -9,7 +10,6 @@ class PatientAccess extends Component {
     render() {  
         return (
             <div style={{marginLeft:"10%", marginRight:"10%",marginTop:20}}>
-
                 {dummyData.map((data,index) => (
                     <div>
                         <Accordion defaultActiveKey={0} flush>
@@ -31,6 +31,7 @@ class PatientAccess extends Component {
                     ))}
                
             </div>
+            
         );
     }
 }

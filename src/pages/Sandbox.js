@@ -4,7 +4,7 @@ class Sandbox extends Component {
     render() {
         return (
             <div>
-                <h1>Sandbox page</h1>
+                <h1>Sandbox</h1>
             </div>
         );
     }
